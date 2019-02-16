@@ -1,0 +1,78 @@
+h1, h3, p {
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+}
+
+html {
+  background: url("https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_960_720.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.main {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+
+img {
+  /* margin: 0px 20px 20px 20px; */
+}
+
+h3 {
+  font-size: 24px;
+}
+
+span {
+  color: blue;
+}
+
+.clock {
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+
+.time, .date {
+  justify-content: space-between;
+}
+
+td {
+  text-align: center;
+}
+.widget-box{
+    align-self: center;
+    border: 5px solid rgb(79, 114, 72);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    background: wheat;
+}
+.widget-box img {
+  width: 200px;
+  /* margin: auto 0; */
+}
+
+.clock-widget {
+  border-radius: 50%;
+  background-image: url("./clock.png");
+  background-size: cover;
+  height: 300px;
+}
+
+#shiba-sun {
+  position: fixed;
+}
+
+.tabs-widget ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+}
